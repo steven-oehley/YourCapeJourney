@@ -1,0 +1,121 @@
+/* RESET */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+}
+
+/* VARIABLES */
+
+:root {
+  --blue: #05204a;
+  --white: #f4fdff;
+  --grey: #6f8695;
+}
+
+/* General Styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+main .container {
+  padding: 60px 30px;
+  gap: 60px;
+}
+
+main img {
+  max-width: 45%;
+  display: block;
+  align-self: flex-start;
+  border-radius: 70px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "sail";
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+p {
+  font-family: "roboto";
+  line-height: 1.75;
+}
+
+.img-second {
+  order: 99;
+}
+
+/* NAV */
+
+.nav-heading {
+  margin-bottom: 0;
+  text-shadow: 2px 2px 2px var(--grey);
+}
+
+header {
+  background-color: var(--blue);
+  color: var(--white);
+  position: sticky;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  box-shadow: 0px 8px 4px rgba(0, 0, 0, 0.2); /* Change the values as needed */
+}
+
+nav {
+  margin-left: auto;
+}
+
+.nav-items {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Hero */
+
+.hero {
+  background-color: var(--grey);
+  color: var(--white);
+}
+
+.hero img {
+  box-shadow: 20px 22px 33px 5px rgba(5, 32, 74, 0.75);
+  -webkit-box-shadow: 20px 22px 33px 5px rgba(5, 32, 74, 0.75);
+  -moz-box-shadow: 20px 22px 33px 5px rgba(5, 32, 74, 0.75);
+}
