@@ -149,3 +149,22 @@ footer {
 footer p {
   margin-left: auto;
 }
+
+/* GALLERY */
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.gallery-item {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery-item img {
+  width: 50%;
+  height: 400px;
+}
