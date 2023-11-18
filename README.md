@@ -4,7 +4,7 @@
 <hr>
 This project is a representation of Cape Town, South Africa, through a website built using HTML and CSS and the use of FlexBox for layout. 
 The website aims to showcase the city's diverse attractions, enticing users to explore its beauty and cultural richness.
-The site is available to view [here](https://yourcapejourney.netlify.app/)
+The site is available to view (https://yourcapejourney.netlify.app/)[here]
 
 ## Features
 <hr>
